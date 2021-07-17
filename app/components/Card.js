@@ -3,7 +3,7 @@ import React from 'react';
 import Colors from '../config/Colors';
 import { View,StyleSheet, Image } from 'react-native';
 
-function Card({title, subTitle,image}) {
+function Card({title, subtitle,image}) {
     return (
         <View style={styles.card}>
             <Image style={styles.Image} source={require(image)}/>
